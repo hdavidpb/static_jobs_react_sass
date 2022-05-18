@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import { IJob, IJobcontext } from "./interfaces";
-import dataJobs from "../../assets/static-job-listings-master/data.json";
+import dataJobs from "../../data.json";
 import useGetJobs from "../../hooks/useGetJobs";
 
 export const JobsState = createContext({} as IJobcontext);

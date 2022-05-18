@@ -1,4 +1,5 @@
 import "../src/sass/app.scss";
+
 import Jobs from "./components/jobs/Index";
 
 function App() {
