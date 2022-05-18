@@ -9,7 +9,7 @@ const JobsContext = ({ children }: { children: JSX.Element }) => {
   // const [jobs, setJobs] = useState<IJob[]>(dataJobs);
   const [filterValues, setFilterValues] = useState<string[]>([]);
   const { jobsRes } = useGetJobs({ jobs: dataJobs, filterValues });
-  console.log(dataJobs);
+
   const handleSetFilterValues = (language: string) => {
     setFilterValues((prev) => {
       let newFilterValues: string[] = [];
